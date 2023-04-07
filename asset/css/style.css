@@ -1,0 +1,83 @@
+*{
+    margin:0 !important;
+    padding:0 !important;
+    box-sizing:border-box !important;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+:root{
+    --green:rgb(115,199,184) !important;
+    --lg:rgba(67,180,160,.09) !important;
+    --dark:#07012f !important;
+    --op:rgba(255,255,255,.1) !important;
+    --gray:rgba(255,255,255,.75) !important;
+    --lig:#f8f8f8 !important;
+}
+.p-100{padding: 100px 0px !important;}
+.js{ font-family: 'Jost'!important;}
+.m-x{margin:0px 97.5px !important;}
+.gr{background: linear-gradient(90deg,#a146e8 0%,#6c63d0 35%,#387db8 100%);}
+.banner-img img{
+    animation: up 2s linear infinite !important;   
+}
+.banner-img{
+    background-image: url(../images/hero-shape-7.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+ @keyframes up{
+    0%{
+        transform: translateY(8px) !important;
+    }
+    50%{
+        transform: translateY(0px) !important;
+    }
+    100%{
+        transform: translateY(-8px) !important;
+    }
+ }
+.banner{
+    background-image: url(../images/hero-shape-2.png);
+    background-repeat: no-repeat;
+    max-height: 100%;
+}
+.item{
+    background-image: url(../images/section-shape-3.png);
+}
+
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .a-img{
+    width:50px;
+    height:50px;
+  }
+  .fs-14{font-size: 14px;}
+  .fs-16{font-size: 16px;}
+  .fs-22{font-size: 22px;}
+  .auu{
+    border-radius: 0 10px 0 10px;
+    
+}
+.mt-6{margin-top: 30px !important;}
+.swip-img img{
+    border-radius: 0 10px 0 10px !important;
+}
+
+
+
+  
